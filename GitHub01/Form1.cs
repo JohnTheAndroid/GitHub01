@@ -23,9 +23,11 @@ namespace GitHub01
             int b = int.Parse(textBox2.Text);
             double soucet = a + b;
             double soucin = a * b;
-           
+            double podil = a / b;
+
             MessageBox.Show("Součet je : " + soucet);
             MessageBox.Show("Součin  je : " + soucin);
+            MessageBox.Show("Podil  je : " + podil);
         }
     }
 }
