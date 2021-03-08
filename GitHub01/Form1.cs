@@ -24,6 +24,7 @@ namespace GitHub01
             double soucet = a + b;
             double soucin = a * b;
             double podil = a / b;
+            double odmocnina = Math.Pow(a, b);
 
             MessageBox.Show("Součet je : " + soucet);
             MessageBox.Show("Součin  je : " + soucin);
